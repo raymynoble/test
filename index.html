@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaThread Collective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav">
+            <div class="brand">NovaThread Collective</div>
+            <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__links">
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#fabric">Materials</a></li>
+                <li><a href="#size-guide">Size</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#sustainability">Sustainability</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#checkout">Checkout</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="hero__content">
+                <p class="eyebrow">New Drop</p>
+                <h1>Elevate Your Everyday</h1>
+                <p>Minimal silhouettes, bold textures, and conscious craftsmanship. Discover the essentials redefining street luxury.</p>
+                <div class="hero__actions">
+                    <a class="btn btn--primary" href="#collection">Shop the Collection</a>
+                    <a class="btn btn--ghost" href="#checkout">Fast Checkout</a>
+                </div>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+                <div class="hero__card hero__card--one">
+                    <span class="hero__tag">Recycled Denim</span>
+                </div>
+                <div class="hero__card hero__card--photo">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Model in NovaThread outfit" />
+                    <span class="hero__tag">Limited Drop</span>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="highlights" class="section highlights">
+            <div class="section__intro">
+                <p class="eyebrow">Why NovaThread</p>
+                <h2>Premium essentials engineered for the city pace</h2>
+                <p>Considered details, low-impact materials, and concierge-level service designed around how you live.</p>
+            </div>
+            <div class="highlights__grid">
+                <article>
+                    <span class="highlights__metric">72h</span>
+                    <h3>Design-to-door</h3>
+                    <p>Express fulfilment on every capsule so you never miss a moment.</p>
+                </article>
+                <article>
+                    <span class="highlights__metric">92%</span>
+                    <h3>Eco Inputs</h3>
+                    <p>Recycled, organic, or responsibly sourced fibers across the core range.</p>
+                </article>
+                <article>
+                    <span class="highlights__metric">4.9</span>
+                    <h3>Community Rated</h3>
+                    <p>Thousands of wear tests keep fits dialed, durable, and lounge-to-street ready.</p>
+                </article>
+                <article>
+                    <span class="highlights__metric">24/7</span>
+                    <h3>Concierge Support</h3>
+                    <p>Global stylists on call for sizing, care, and gift assistance.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="collection" class="section collection">
+            <div class="section__intro">
+                <p class="eyebrow">Signature Pieces</p>
+                <h2>Curated for Movement</h2>
+                <p>Each piece is designed for versatility and intention. Layer them, live in them, make them your own.</p>
+            </div>
+            <div class="collection__grid">
+                <article class="card">
+                    <div class="card__media">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="CloudWeave Jacket in charcoal" />
+                        <span class="card__tag">Bestseller</span>
+                    </div>
+                    <div class="card__body">
+                        <h3>CloudWeave Jacket</h3>
+                        <p>Structured warmth with a breathable mesh lining, perfect for transitional weather.</p>
+                        <span class="card__price">$240</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__media">
+                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80" alt="TerraFlex Cargo pants in motion" />
+                        <span class="card__tag">Restocked</span>
+                    </div>
+                    <div class="card__body">
+                        <h3>TerraFlex Cargo</h3>
+                        <p>Utility meets tailoring with recycled nylon, reinforced stitching, and adjustable cuffs.</p>
+                        <span class="card__price">$180</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__media">
+                        <img src="https://images.unsplash.com/photo-1521572160340-fdc0a1e8c5b6?auto=format&fit=crop&w=800&q=80" alt="Flux Knit Crew in cream" />
+                        <span class="card__tag">Organic</span>
+                    </div>
+                    <div class="card__body">
+                        <h3>Flux Knit Crew</h3>
+                        <p>Organic cotton blend engineered with seamless knitting for superior comfort.</p>
+                        <span class="card__price">$120</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="shop" class="section shop">
+            <div class="section__intro">
+                <p class="eyebrow">New Capsule</p>
+                <h2>Ready-to-Ship Favorites</h2>
+                <p>Tap into limited-run colorways and silhouettes designed for everyday elevation.</p>
+            </div>
+            <div class="shop__grid">
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80" alt="Lumen Track Set jacket and pants" />
+                        <span class="product-card__flag">2 Colors</span>
+                    </div>
+                    <div class="product-card__body">
+                        <h3>Lumen Track Set</h3>
+                        <p>Reflective piping, moisture-wicking weave, and packable hood for sleek urban travel.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$198</span>
+                            <span class="product-card__badge">Ships in 24h</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Moonlit Slate">Moonlit Slate</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Aurora Dust">Aurora Dust</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Moonlit Slate</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img src="https://images.unsplash.com/photo-1524502397800-28a5b0a1e4c0?auto=format&fit=crop&w=800&q=80" alt="Solar Flare Bomber jacket" />
+                        <span class="product-card__flag">Drop Exclusive</span>
+                    </div>
+                    <div class="product-card__body">
+                        <h3>Solar Flare Bomber</h3>
+                        <p>Quilted insulation with luminescent panels and hidden passport pocket for seamless travel.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$260</span>
+                            <span class="product-card__badge">Low Stock</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Cosmic Ember">Cosmic Ember</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Nebula Noir">Nebula Noir</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Cosmic Ember</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-card__media">
+                        <img src="https://images.unsplash.com/photo-1521572163585-d9fdc0ad1af2?auto=format&fit=crop&w=800&q=80" alt="Eclipse Wrap Dress" />
+                        <span class="product-card__flag">Vegan Silk</span>
+                    </div>
+                    <div class="product-card__body">
+                        <h3>Eclipse Wrap Dress</h3>
+                        <p>Bias-cut drape with detachable belt and laser-cut hems inspired by lunar gradients.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$220</span>
+                            <span class="product-card__badge">Just Arrived</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Obsidian Aura">Obsidian Aura</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Solar Mist">Solar Mist</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Obsidian Aura</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="fabric" class="section fabric">
+            <div class="section__intro">
+                <p class="eyebrow">Material Science</p>
+                <h2>Feels elevated, lasts longer</h2>
+                <p>Every textile is stress-tested for color fastness, resilience, and buttery-soft comfort.</p>
+            </div>
+            <div class="fabric__grid">
+                <article class="fabric-card">
+                    <div class="fabric-card__icon" aria-hidden="true">☁️</div>
+                    <h3>CloudWeave™</h3>
+                    <p>Brushed organic cotton engineered with micro stretch for all-day movement and zero cling.</p>
+                </article>
+                <article class="fabric-card">
+                    <div class="fabric-card__icon" aria-hidden="true">♻️</div>
+                    <h3>ReForm Nylon</h3>
+                    <p>Recycled ocean-bound nylon blended with bamboo charcoal to wick moisture and neutralize odor.</p>
+                </article>
+                <article class="fabric-card">
+                    <div class="fabric-card__icon" aria-hidden="true">🌙</div>
+                    <h3>LunaSilk Vegan</h3>
+                    <p>Plant-based satin finish with thermoregulating fibers that keep you cool from dusk to dawn.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="story" class="section story">
+            <div class="story__content">
+                <div class="section__intro">
+                    <p class="eyebrow">Our Story</p>
+                    <h2>Designed in the City, Inspired by the Cosmos</h2>
+                </div>
+                <p>NovaThread Collective is a fusion of modern architecture, cosmic wonder, and cultural rhythm. Founded by creatives who grew up in the pulse of the city, we build garments that adapt to the lives they live—dynamic, forward, and fearless.</p>
+                <p>We collaborate with global artisans to craft limited runs, ensuring every drop is as intentional as the people who wear it.</p>
+            </div>
+            <div class="story__visual" aria-hidden="true">
+                <div class="story__badge">Est. 2020</div>
+                <div class="story__gradient"></div>
+            </div>
+        </section>
+
+        <section id="sustainability" class="section sustainability">
+            <div class="section__intro">
+                <p class="eyebrow">Sustainability</p>
+                <h2>Responsible by Design</h2>
+            </div>
+            <div class="sustainability__grid">
+                <article>
+                    <h3>Eco Fabrics</h3>
+                    <p>We source organic cotton, recycled nylon, and plant-based dyes to minimize environmental impact.</p>
+                </article>
+                <article>
+                    <h3>Small Batch Production</h3>
+                    <p>Limited runs ensure less waste, while capsule releases keep the collection fresh.</p>
+                </article>
+                <article>
+                    <h3>Community Impact</h3>
+                    <p>Portions of every drop fund youth arts programs and mentorships in underserved communities.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="services" class="section services">
+            <div class="section__intro">
+                <p class="eyebrow">Services</p>
+                <h2>Everything you need, end-to-end</h2>
+                <p>Transparent policies and thoughtful extras make shopping effortless.</p>
+            </div>
+            <div class="services__grid">
+                <article>
+                    <h3>Complimentary tailoring</h3>
+                    <p>Fine-tune hems and sleeves at no additional cost within 30 days of delivery.</p>
+                </article>
+                <article>
+                    <h3>Carbon-neutral shipping</h3>
+                    <p>Each delivery is offset through verified reforestation and clean energy partners.</p>
+                </article>
+                <article>
+                    <h3>Seamless returns</h3>
+                    <p>Print-free QR drop-offs and instant store credit the moment your item is scanned.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="size-guide" class="section size-guide">
+            <div class="section__intro">
+                <p class="eyebrow">Size & Fit</p>
+                <h2>Tailored guidance for every body</h2>
+                <p>Use our quick reference chart or chat with a stylist to dial in your ideal fit.</p>
+            </div>
+            <div class="size-guide__layout">
+                <div class="size-guide__panel">
+                    <h3>Core Tops</h3>
+                    <table class="size-guide__table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Size</th>
+                                <th scope="col">Chest (in)</th>
+                                <th scope="col">Length (in)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">XS</th>
+                                <td>32-34</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">S</th>
+                                <td>35-37</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">M</th>
+                                <td>38-40</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">L</th>
+                                <td>41-43</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">XL</th>
+                                <td>44-47</td>
+                                <td>29</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="size-guide__panel">
+                    <h3>Utility Bottoms</h3>
+                    <table class="size-guide__table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Size</th>
+                                <th scope="col">Waist (in)</th>
+                                <th scope="col">Inseam (in)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">28</th>
+                                <td>27-28</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">30</th>
+                                <td>29-30</td>
+                                <td>31</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">32</th>
+                                <td>31-32</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">34</th>
+                                <td>33-35</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">36</th>
+                                <td>36-38</td>
+                                <td>33</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="size-guide__aside">
+                    <h3>Need personalized support?</h3>
+                    <p>Schedule a 10-minute virtual fitting or text <a href="tel:+18445551234">+1 (844) 555-1234</a> for rapid styling advice.</p>
+                    <ul>
+                        <li>Complimentary international exchanges</li>
+                        <li>Inclusive sizing from XXS-4X made-to-order</li>
+                        <li>Fit notes available on every product page</li>
+                    </ul>
+                    <a class="btn btn--ghost" href="#checkout">Reserve your size</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="lookbook" class="section lookbook">
+            <div class="section__intro">
+                <p class="eyebrow">Lookbook</p>
+                <h2>Seasonal Highlights</h2>
+                <p>Explore the silhouettes shaping this season’s capsule. Swipe-ready, share-worthy, always intentional.</p>
+            </div>
+            <div class="lookbook__carousel">
+                <div class="lookbook__slide lookbook__slide--one">
+                    <span>Midnight Layering Set</span>
+                </div>
+                <div class="lookbook__slide lookbook__slide--two">
+                    <span>Solar Flare Bomber</span>
+                </div>
+                <div class="lookbook__slide lookbook__slide--three">
+                    <span>Lumen Track Duo</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="checkout" class="section checkout">
+            <div class="section__intro">
+                <p class="eyebrow">Express Checkout</p>
+                <h2>Complete Your Order in Seconds</h2>
+                <p>Review your cart, choose a shipping speed, and lock in the drop before it sells out.</p>
+            </div>
+            <div class="checkout__layout">
+                <div class="checkout__items" aria-live="polite">
+                    <article class="checkout-item">
+                        <div class="checkout-item__media">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80" alt="CloudWeave Jacket in graphite" />
+                        </div>
+                        <div class="checkout-item__body">
+                            <header>
+                                <h3>CloudWeave Jacket</h3>
+                                <p>Size M · Moonlit Slate</p>
+                            </header>
+                            <div class="checkout-item__controls">
+                                <label>
+                                    Qty
+                                    <input type="number" min="1" value="1" class="checkout-item__qty" data-price="240" />
+                                </label>
+                                <span class="checkout-item__price" data-item-total>$240</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="checkout-item">
+                        <div class="checkout-item__media">
+                            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=400&q=80" alt="TerraFlex Cargo pant" />
+                        </div>
+                        <div class="checkout-item__body">
+                            <header>
+                                <h3>TerraFlex Cargo</h3>
+                                <p>Size 32 · Ember Stone</p>
+                            </header>
+                            <div class="checkout-item__controls">
+                                <label>
+                                    Qty
+                                    <input type="number" min="1" value="1" class="checkout-item__qty" data-price="180" />
+                                </label>
+                                <span class="checkout-item__price" data-item-total>$180</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <aside class="checkout__summary" aria-label="Order summary">
+                    <h3>Order Summary</h3>
+                    <dl class="summary__totals">
+                        <div class="summary__row">
+                            <dt>Subtotal</dt>
+                            <dd data-checkout-subtotal>$420</dd>
+                        </div>
+                        <div class="summary__row">
+                            <dt>Shipping</dt>
+                            <dd data-checkout-shipping>Free</dd>
+                        </div>
+                        <div class="summary__divider" aria-hidden="true"></div>
+                        <div class="summary__row summary__row--total">
+                            <dt>Total</dt>
+                            <dd data-checkout-total>$420</dd>
+                        </div>
+                    </dl>
+                    <fieldset class="summary__shipping">
+                        <legend>Choose shipping</legend>
+                        <label>
+                            <input type="radio" name="shipping" value="0" checked /> Standard · Free (5–7 days)
+                        </label>
+                        <label>
+                            <input type="radio" name="shipping" value="18" /> Express · $18 (2-day)
+                        </label>
+                        <label>
+                            <input type="radio" name="shipping" value="35" /> Overnight · $35 (next-day)
+                        </label>
+                    </fieldset>
+                    <button type="button" class="btn btn--primary checkout__cta">Proceed to Secure Checkout</button>
+                    <p class="checkout__trust">
+                        Apple Pay · Shop Pay · Google Pay
+                    </p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section press" aria-labelledby="press-heading">
+            <div class="section__intro">
+                <p class="eyebrow">As Seen In</p>
+                <h2 id="press-heading">Recognized by the style vanguard</h2>
+                <p>Editorial features and partnerships with the creators shaping culture.</p>
+            </div>
+            <div class="press__logos" role="list">
+                <span role="listitem">HypeMode</span>
+                <span role="listitem">UrbanLuxe</span>
+                <span role="listitem">The Fabric Review</span>
+                <span role="listitem">CultureWire</span>
+                <span role="listitem">NightShift Mag</span>
+            </div>
+        </section>
+
+        <section class="section testimonials">
+            <div class="section__intro">
+                <p class="eyebrow">Voices</p>
+                <h2>What the Collective Says</h2>
+            </div>
+            <div class="testimonials__grid">
+                <figure>
+                    <blockquote>“Pieces that feel like the future—clean, conscious, and fearless.”</blockquote>
+                    <figcaption>— Aria K., DJ & Producer</figcaption>
+                </figure>
+                <figure>
+                    <blockquote>“My go-to fits for gallery nights and weekend adventures.”</blockquote>
+                    <figcaption>— Malik R., Visual Artist</figcaption>
+                </figure>
+                <figure>
+                    <blockquote>“Every drop tells a story that I want to be part of.”</blockquote>
+                    <figcaption>— Lena T., Creative Director</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section journal" aria-labelledby="journal-heading">
+            <div class="section__intro">
+                <p class="eyebrow">Journal</p>
+                <h2 id="journal-heading">Stories from the studio</h2>
+                <p>Go behind the capsule with editorials and interviews from the collective.</p>
+            </div>
+            <div class="journal__grid">
+                <article>
+                    <p class="journal__tag">Editorial</p>
+                    <h3>Nightfall Layers with Aria K.</h3>
+                    <p>Step into the artist’s Brooklyn loft for a styling session that pairs modular outerwear with statement accessories.</p>
+                    <a href="#" class="journal__link">Read the feature</a>
+                </article>
+                <article>
+                    <p class="journal__tag">Process</p>
+                    <h3>Inside the LunaSilk Lab</h3>
+                    <p>Meet the textile engineers pioneering plant-based silk alternatives for future-forward silhouettes.</p>
+                    <a href="#" class="journal__link">Explore the lab</a>
+                </article>
+                <article>
+                    <p class="journal__tag">Community</p>
+                    <h3>Mentorship in Motion</h3>
+                    <p>See how our youth arts program is empowering next-gen designers to create fearless, sustainable work.</p>
+                    <a href="#" class="journal__link">Discover the impact</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq" aria-labelledby="faq-heading">
+            <div class="section__intro">
+                <p class="eyebrow">FAQ</p>
+                <h2 id="faq-heading">Answers before you checkout</h2>
+                <p>From shipping windows to care instructions, here’s what our community asks most.</p>
+            </div>
+            <div class="faq__list">
+                <article class="faq__item">
+                    <button class="faq__trigger" type="button" aria-expanded="false" data-faq-trigger>
+                        How fast will my order ship?
+                    </button>
+                    <div class="faq__answer" hidden>
+                        <p>Orders placed before 2pm EST dispatch the same day. Express and overnight selections arrive in 2 or fewer business days.</p>
+                    </div>
+                </article>
+                <article class="faq__item">
+                    <button class="faq__trigger" type="button" aria-expanded="false" data-faq-trigger>
+                        What if the fit isn’t perfect?
+                    </button>
+                    <div class="faq__answer" hidden>
+                        <p>Book a virtual fitting within 30 days for complimentary alterations, or initiate a return with instant credit via QR drop-off.</p>
+                    </div>
+                </article>
+                <article class="faq__item">
+                    <button class="faq__trigger" type="button" aria-expanded="false" data-faq-trigger>
+                        How should I care for the fabrics?
+                    </button>
+                    <div class="faq__answer" hidden>
+                        <p>Our garments come with garment-specific instructions. As a baseline, wash cold, hang dry, and avoid harsh detergents to preserve coatings.</p>
+                    </div>
+                </article>
+                <article class="faq__item">
+                    <button class="faq__trigger" type="button" aria-expanded="false" data-faq-trigger>
+                        Do you offer gift services?
+                    </button>
+                    <div class="faq__answer" hidden>
+                        <p>Yes—select signature wrapping at checkout or contact concierge for hand-written notes and scheduled deliveries.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section newsletter">
+            <div class="newsletter__inner">
+                <div>
+                    <p class="eyebrow">Stay in the Loop</p>
+                    <h2>Join the Collective</h2>
+                    <p>First access to drops, pop-ups, and creative collaborations. No noise—just what matters.</p>
+                </div>
+                <form class="newsletter__form">
+                    <label class="sr-only" for="email">Email Address</label>
+                    <input id="email" type="email" name="email" placeholder="you@example.com" required />
+                    <button type="submit" class="btn btn--primary">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="footer__grid">
+            <div>
+                <h3>NovaThread Collective</h3>
+                <p>Conscious streetwear crafted in the heart of the city.</p>
+            </div>
+            <div>
+                <h4>Visit Us</h4>
+                <p>NovaThread Studio<br />415 Nova Ave, Suite 9<br />Brooklyn, NY 11211</p>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <ul class="footer__links">
+                    <li><a href="mailto:hello@novathread.co">hello@novathread.co</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com" target="_blank" rel="noopener">TikTok</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Support</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__legal">© <span id="year"></span> NovaThread Collective. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
