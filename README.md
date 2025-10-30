@@ -28,5 +28,11 @@ Open the same URL in your browser when the server starts.
 ## Structure
 
 - `index.html` – Landing page markup featuring hero, highlights, materials, services, size guide, shoppable gallery, story, sustainability, lookbook, testimonials, journal, FAQ, newsletter, and checkout sections.
-- `assets/css/styles.css` – Global styles, layout, and responsive design for minimalist cards, tables, accordions, and responsive navigation.
-- `assets/js/main.js` – Navigation toggle, color swatch selectors, checkout totals, FAQ accordion, and dynamic footer year.
+- `assets/css/styles.css` – Global styles, layout, and responsive design for minimalist cards, tables, accordions, page templates, and responsive navigation.
+- `assets/js/main.js` – Navigation toggle, color swatch selectors, checkout totals, Payment Request (Apple Pay & cards), FAQ accordion, and dynamic footer year.
+- `products/` – Individual product detail pages with imagery, features, and care notes for each item highlighted on the storefront.
+- `pages/` – Additional content including the lookbook, shipping & returns, extended size guide, FAQ, and journal features.
+
+## Payments & checkout
+
+The express checkout section supports the browser Payment Request API. On supported devices, shoppers can use Apple Pay or saved cards for a streamlined experience. Browsers that do not support the API fall back to the standard checkout CTA and display an explanatory notice.

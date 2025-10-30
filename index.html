@@ -12,7 +12,7 @@
 <body>
     <header class="site-header">
         <nav class="nav">
-            <div class="brand">NovaThread Collective</div>
+            <a class="brand" href="index.html">NovaThread Collective</a>
             <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -31,23 +31,20 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <section class="hero">
-            <div class="hero__content">
-                <p class="eyebrow">New Drop</p>
-                <h1>Elevate Your Everyday</h1>
-                <p>Minimal silhouettes, bold textures, and conscious craftsmanship. Discover the essentials redefining street luxury.</p>
+        <section class="hero hero--banner" style="--hero-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80');">
+            <div class="hero__overlay" aria-hidden="true"></div>
+            <div class="hero__inner">
+                <div class="hero__badge">Drop V: Celestial Basics</div>
+                <h1>City-ready silhouettes in calming neutrals</h1>
+                <p>Balance structure and softness with breathable tailoring, modular layers, and accessories that move wherever the day goes.</p>
                 <div class="hero__actions">
-                    <a class="btn btn--primary" href="#collection">Shop the Collection</a>
-                    <a class="btn btn--ghost" href="#checkout">Fast Checkout</a>
+                    <a class="btn btn--primary" href="#shop">Start Shopping</a>
+                    <a class="btn btn--ghost" href="pages/lookbook.html">Browse Lookbook</a>
                 </div>
-            </div>
-            <div class="hero__visual" aria-hidden="true">
-                <div class="hero__card hero__card--one">
-                    <span class="hero__tag">Recycled Denim</span>
-                </div>
-                <div class="hero__card hero__card--photo">
-                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Model in NovaThread outfit" />
-                    <span class="hero__tag">Limited Drop</span>
+                <div class="hero__details">
+                    <a href="products/cloudweave-jacket.html">CloudWeave Jacket</a>
+                    <a href="products/eclipse-wrap-dress.html">Eclipse Wrap Dress</a>
+                    <a href="pages/journal-nightfall-layers.html">Journal: Nightfall Layers</a>
                 </div>
             </div>
         </section>
@@ -92,37 +89,82 @@
             </div>
             <div class="collection__grid">
                 <article class="card">
-                    <div class="card__media">
-                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="CloudWeave Jacket in charcoal" />
-                        <span class="card__tag">Bestseller</span>
-                    </div>
-                    <div class="card__body">
-                        <h3>CloudWeave Jacket</h3>
-                        <p>Structured warmth with a breathable mesh lining, perfect for transitional weather.</p>
-                        <span class="card__price">$240</span>
-                    </div>
+                    <a class="card__link" href="products/cloudweave-jacket.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="CloudWeave Jacket in charcoal" />
+                            <span class="card__tag">Bestseller</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>CloudWeave Jacket</h3>
+                            <p>Structured warmth with a breathable mesh lining, perfect for transitional weather.</p>
+                            <span class="card__price">$240</span>
+                        </div>
+                    </a>
                 </article>
                 <article class="card">
-                    <div class="card__media">
-                        <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80" alt="TerraFlex Cargo pants in motion" />
-                        <span class="card__tag">Restocked</span>
-                    </div>
-                    <div class="card__body">
-                        <h3>TerraFlex Cargo</h3>
-                        <p>Utility meets tailoring with recycled nylon, reinforced stitching, and adjustable cuffs.</p>
-                        <span class="card__price">$180</span>
-                    </div>
+                    <a class="card__link" href="products/terraflex-cargo.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=800&q=80" alt="TerraFlex Cargo pants in motion" />
+                            <span class="card__tag">Restocked</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>TerraFlex Cargo</h3>
+                            <p>Utility meets tailoring with recycled nylon, reinforced stitching, and adjustable cuffs.</p>
+                            <span class="card__price">$180</span>
+                        </div>
+                    </a>
                 </article>
                 <article class="card">
-                    <div class="card__media">
-                        <img src="https://images.unsplash.com/photo-1521572160340-fdc0a1e8c5b6?auto=format&fit=crop&w=800&q=80" alt="Flux Knit Crew in cream" />
-                        <span class="card__tag">Organic</span>
-                    </div>
-                    <div class="card__body">
-                        <h3>Flux Knit Crew</h3>
-                        <p>Organic cotton blend engineered with seamless knitting for superior comfort.</p>
-                        <span class="card__price">$120</span>
-                    </div>
+                    <a class="card__link" href="products/flux-knit-crew.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1521572160340-fdc0a1e8c5b6?auto=format&fit=crop&w=800&q=80" alt="Flux Knit Crew in cream" />
+                            <span class="card__tag">Organic</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Flux Knit Crew</h3>
+                            <p>Organic cotton blend engineered with seamless knitting for superior comfort.</p>
+                            <span class="card__price">$120</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a class="card__link" href="products/orbit-trench-coat.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Orbit Trench Coat in sandstone" />
+                            <span class="card__tag">New Arrival</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Orbit Trench Coat</h3>
+                            <p>Longline silhouette with water-repellent finish and removable insulated liner for four-season wear.</p>
+                            <span class="card__price">$320</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a class="card__link" href="products/axis-modular-vest.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1475180098004-ca77a66827be?auto=format&fit=crop&w=800&q=80" alt="Axis Modular Vest in studio" />
+                            <span class="card__tag">Convertible</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Axis Modular Vest</h3>
+                            <p>Detachable utility pockets and thermo-knit panels let you shift from gallery to night run instantly.</p>
+                            <span class="card__price">$210</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="card">
+                    <a class="card__link" href="products/stratus-relaxed-tee.html">
+                        <div class="card__media">
+                            <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=800&q=80" alt="Stratus Relaxed Tee in ivory" />
+                            <span class="card__tag">Soft Touch</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Stratus Relaxed Tee</h3>
+                            <p>Featherweight modal-blend tee with split hems and taped seams for elevated daily layering.</p>
+                            <span class="card__price">$78</span>
+                        </div>
+                    </a>
                 </article>
             </div>
         </section>
@@ -135,12 +177,12 @@
             </div>
             <div class="shop__grid">
                 <article class="product-card">
-                    <div class="product-card__media">
+                    <a class="product-card__media" href="products/lumen-track-set.html">
                         <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=800&q=80" alt="Lumen Track Set jacket and pants" />
                         <span class="product-card__flag">2 Colors</span>
-                    </div>
+                    </a>
                     <div class="product-card__body">
-                        <h3>Lumen Track Set</h3>
+                        <h3><a href="products/lumen-track-set.html">Lumen Track Set</a></h3>
                         <p>Reflective piping, moisture-wicking weave, and packable hood for sleek urban travel.</p>
                         <div class="product-card__meta">
                             <span class="product-card__price">$198</span>
@@ -155,12 +197,12 @@
                     </div>
                 </article>
                 <article class="product-card">
-                    <div class="product-card__media">
+                    <a class="product-card__media" href="products/solar-flare-bomber.html">
                         <img src="https://images.unsplash.com/photo-1524502397800-28a5b0a1e4c0?auto=format&fit=crop&w=800&q=80" alt="Solar Flare Bomber jacket" />
                         <span class="product-card__flag">Drop Exclusive</span>
-                    </div>
+                    </a>
                     <div class="product-card__body">
-                        <h3>Solar Flare Bomber</h3>
+                        <h3><a href="products/solar-flare-bomber.html">Solar Flare Bomber</a></h3>
                         <p>Quilted insulation with luminescent panels and hidden passport pocket for seamless travel.</p>
                         <div class="product-card__meta">
                             <span class="product-card__price">$260</span>
@@ -175,12 +217,12 @@
                     </div>
                 </article>
                 <article class="product-card">
-                    <div class="product-card__media">
+                    <a class="product-card__media" href="products/eclipse-wrap-dress.html">
                         <img src="https://images.unsplash.com/photo-1521572163585-d9fdc0ad1af2?auto=format&fit=crop&w=800&q=80" alt="Eclipse Wrap Dress" />
                         <span class="product-card__flag">Vegan Silk</span>
-                    </div>
+                    </a>
                     <div class="product-card__body">
-                        <h3>Eclipse Wrap Dress</h3>
+                        <h3><a href="products/eclipse-wrap-dress.html">Eclipse Wrap Dress</a></h3>
                         <p>Bias-cut drape with detachable belt and laser-cut hems inspired by lunar gradients.</p>
                         <div class="product-card__meta">
                             <span class="product-card__price">$220</span>
@@ -191,6 +233,66 @@
                             <button type="button" class="swatch" aria-pressed="false" data-color="Solar Mist">Solar Mist</button>
                         </div>
                         <p class="product-card__selection" data-selected-color>Selected: Obsidian Aura</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a class="product-card__media" href="products/horizon-lounge-hoodie.html">
+                        <img src="https://images.unsplash.com/photo-1520624222610-04976d12f16c?auto=format&fit=crop&w=800&q=80" alt="Horizon Lounge Hoodie" />
+                        <span class="product-card__flag">Cozy Tech</span>
+                    </a>
+                    <div class="product-card__body">
+                        <h3><a href="products/horizon-lounge-hoodie.html">Horizon Lounge Hoodie</a></h3>
+                        <p>French-terry interior with bonded seams and thumbholes for seamless lounge-to-street layering.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$158</span>
+                            <span class="product-card__badge">Restocks Weekly</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Stone Mist">Stone Mist</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Cinder Fade">Cinder Fade</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Stone Mist</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a class="product-card__media" href="products/meridian-pleat-trouser.html">
+                        <img src="https://images.unsplash.com/photo-1520927742307-2189d97bd407?auto=format&fit=crop&w=800&q=80" alt="Meridian Pleat Trouser" />
+                        <span class="product-card__flag">Tailored</span>
+                    </a>
+                    <div class="product-card__body">
+                        <h3><a href="products/meridian-pleat-trouser.html">Meridian Pleat Trouser</a></h3>
+                        <p>Double-pleated trouser with four-way stretch waistband and hidden phone pocket for the commute.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$185</span>
+                            <span class="product-card__badge">Wide Sizes</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Charcoal Drift">Charcoal Drift</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Ivory Cloud">Ivory Cloud</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Charcoal Drift</p>
+                        <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a class="product-card__media" href="products/cascade-wool-cap.html">
+                        <img src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=800&q=80" alt="Cascade Wool Cap" />
+                        <span class="product-card__flag">Accessory</span>
+                    </a>
+                    <div class="product-card__body">
+                        <h3><a href="products/cascade-wool-cap.html">Cascade Wool Cap</a></h3>
+                        <p>Italian merino blend cap with adjustable leather strap and UV-coated brim for crisp sunny days.</p>
+                        <div class="product-card__meta">
+                            <span class="product-card__price">$68</span>
+                            <span class="product-card__badge">Limited Batch</span>
+                        </div>
+                        <div class="product-card__swatches" role="group" aria-label="Available colors">
+                            <button type="button" class="swatch is-active" aria-pressed="true" data-color="Oat">Oat</button>
+                            <button type="button" class="swatch" aria-pressed="false" data-color="Storm">Storm</button>
+                        </div>
+                        <p class="product-card__selection" data-selected-color>Selected: Oat</p>
                         <button type="button" class="btn btn--primary product-card__cta">Add to Bag</button>
                     </div>
                 </article>
@@ -385,15 +487,15 @@
                 <p>Explore the silhouettes shaping this season’s capsule. Swipe-ready, share-worthy, always intentional.</p>
             </div>
             <div class="lookbook__carousel">
-                <div class="lookbook__slide lookbook__slide--one">
-                    <span>Midnight Layering Set</span>
-                </div>
-                <div class="lookbook__slide lookbook__slide--two">
-                    <span>Solar Flare Bomber</span>
-                </div>
-                <div class="lookbook__slide lookbook__slide--three">
-                    <span>Lumen Track Duo</span>
-                </div>
+                <a class="lookbook__slide lookbook__slide--one" href="products/orbit-trench-coat.html">
+                    <span>Orbit Trench Coat</span>
+                </a>
+                <a class="lookbook__slide lookbook__slide--two" href="products/eclipse-wrap-dress.html">
+                    <span>Eclipse Wrap Dress</span>
+                </a>
+                <a class="lookbook__slide lookbook__slide--three" href="products/axis-modular-vest.html">
+                    <span>Axis Modular Vest</span>
+                </a>
             </div>
         </section>
 
@@ -462,16 +564,18 @@
                     <fieldset class="summary__shipping">
                         <legend>Choose shipping</legend>
                         <label>
-                            <input type="radio" name="shipping" value="0" checked /> Standard · Free (5–7 days)
+                            <input type="radio" name="shipping" value="0" data-shipping-id="standard" checked /> Standard · Free (5–7 days)
                         </label>
                         <label>
-                            <input type="radio" name="shipping" value="18" /> Express · $18 (2-day)
+                            <input type="radio" name="shipping" value="18" data-shipping-id="express" /> Express · $18 (2-day)
                         </label>
                         <label>
-                            <input type="radio" name="shipping" value="35" /> Overnight · $35 (next-day)
+                            <input type="radio" name="shipping" value="35" data-shipping-id="overnight" /> Overnight · $35 (next-day)
                         </label>
                     </fieldset>
                     <button type="button" class="btn btn--primary checkout__cta">Proceed to Secure Checkout</button>
+                    <button type="button" class="btn btn--ghost checkout__cta" data-payment-button id="payment-request-btn">Pay instantly with Apple&nbsp;Pay or card</button>
+                    <p class="checkout__status" data-payment-status aria-live="polite"></p>
                     <p class="checkout__trust">
                         Apple Pay · Shop Pay · Google Pay
                     </p>
@@ -526,19 +630,19 @@
                     <p class="journal__tag">Editorial</p>
                     <h3>Nightfall Layers with Aria K.</h3>
                     <p>Step into the artist’s Brooklyn loft for a styling session that pairs modular outerwear with statement accessories.</p>
-                    <a href="#" class="journal__link">Read the feature</a>
+                    <a href="pages/journal-nightfall-layers.html" class="journal__link">Read the feature</a>
                 </article>
                 <article>
                     <p class="journal__tag">Process</p>
                     <h3>Inside the LunaSilk Lab</h3>
                     <p>Meet the textile engineers pioneering plant-based silk alternatives for future-forward silhouettes.</p>
-                    <a href="#" class="journal__link">Explore the lab</a>
+                    <a href="pages/journal-lunasilk-lab.html" class="journal__link">Explore the lab</a>
                 </article>
                 <article>
                     <p class="journal__tag">Community</p>
                     <h3>Mentorship in Motion</h3>
                     <p>See how our youth arts program is empowering next-gen designers to create fearless, sustainable work.</p>
-                    <a href="#" class="journal__link">Discover the impact</a>
+                    <a href="pages/journal-mentorship-motion.html" class="journal__link">Discover the impact</a>
                 </article>
             </div>
         </section>
@@ -622,9 +726,9 @@
             <div>
                 <h4>Support</h4>
                 <ul class="footer__links">
-                    <li><a href="#">Shipping & Returns</a></li>
-                    <li><a href="#">Size Guide</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="pages/shipping-returns.html">Shipping & Returns</a></li>
+                    <li><a href="pages/size-guide.html">Size Guide</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
                 </ul>
             </div>
         </div>
